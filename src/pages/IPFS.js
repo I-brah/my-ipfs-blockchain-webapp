@@ -1,8 +1,7 @@
 // src/pages/IPFS.js
 import React, { useState } from 'react';
-import { uploadFile } from async (params) => {
-    '../services/ipfsService'
-};
+import { uploadFile } from '../services/ipfsservice';
+
 
 const IPFS = () => {
   const [fileUrl, setFileUrl] = useState(null);

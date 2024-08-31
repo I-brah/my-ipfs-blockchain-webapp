@@ -17,11 +17,6 @@ const MainLayout = () => {
           </ul>
         </nav>
         <div style={{ flex: 1, padding: '20px' }}>
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/blocks" component={Blocks} />
-            <Route path="/ipfs" component={IPFS} />
-          </Switch>
         </div>
       </div>
     </Router>
